@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Multiple Background Colors</title>
+    <title>Welcome</title>
     <style>
-        .navy {
-            background-color: navy;
-            color: white; /* Adjust text color for visibility */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
         }
-        .orange {
-            background-color: orange;
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .green {
-            background-color: green;
-            color: white; /* Adjust text color for visibility */
-        }
-        .very-bold {
+        .header {
+            font-size: 24px;
             font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
         }
-        .head {
-            font-size: 20px; /* Adjust the font size as needed */
+        .content {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <div class="navy">
-        <span class="head">Hi i am <b class="very-bold">Pratik Shinde</b>!!</span>
-    </div>
-    <div class="orange">
-        Now poll SCM activate 
-    </div>
-    <div class="green">
-        and also Hooks activate 
+    <div class="container">
+        <div class="header">Welcome</div>
+        <div class="content">
+            Welcome, I am <span class="highlight">Pratik Shinde</span>, DevOps Engineer. Now poll SCM is activated.
+        </div>
     </div>
 </body>
 </html>
